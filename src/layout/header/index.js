@@ -1,7 +1,6 @@
 import angular from 'angular';
 import HeaderCtrl from './header.ctrl';
 import headerTemplate from './header.html';
-import headerTemplateMobile from './headerMobile.html';
 
 const module = angular.module('app.header', []);
 
