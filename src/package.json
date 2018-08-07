@@ -1,0 +1,37 @@
+{
+  "name": "FactorFan",
+  "version": "1.0.0",
+  "description": "FactorFan/Brainfors LLC ",
+  "main": "app.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "webpack": "webpack",
+    "start:dev": "webpack-dev-server"
+  },
+  "author": "BrainFors",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "html-loader": "^0.5.1",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-animate": "^1.7.2",
+    "angular-sanitize": "^1.7.2",
+    "angular-ui-bootstrap": "^2.5.6",
+    "angular-ui-router": "^0.4.3",
+    "angular-ui-tinymce": "0.0.19",
+    "babel-polyfill": "^6.26.0",
+  }
+}
